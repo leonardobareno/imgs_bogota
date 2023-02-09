@@ -1,9 +1,9 @@
-objectid,filename,title,date,location,type,format
-img_01,img_01.jpg,Aeropuerto de Techo 1955,1955,Bogotá,Image;StillImage,image/jpeg
-img_02,img_02.jpg,Aeropuerto Techo 1930 n1,1930,Bogotá,Image;StillImage,image/jpeg
-img_03,img_03.jpg,Aeropuerto Techo 1930 n2,1930,Bogotá,Image;StillImage,image/jpeg
-img_04,img_04.jpg,Aeropuerto Techo 1930 n3,1930,Bogotá,Image;StillImage,image/jpeg
-img_05,img_05.jpg,Aeropuerto Techo 1930 n4,1930,Bogotá,Image;StillImage,image/jpeg
+objectid,filename,title,date,location,type,format,latitude,longitude
+img_01,img_01.jpg,Aeropuerto de Techo 1955,1955,Bogotá,Image;StillImage,image/jpeg,4.631227,-74.148279
+img_02,img_02.jpg,Aeropuerto Techo 1930 n1,1930,Bogotá,Image;StillImage,image/jpeg,4.627659,-74.147791
+img_03,img_03.jpg,Aeropuerto Techo 1930 n2,1930,Bogotá,Image;StillImage,image/jpeg,4.627659,-74.147791
+img_04,img_04.jpg,Aeropuerto Techo 1930 n3,1930,Bogotá,Image;StillImage,image/jpeg,4.627659,-74.147791
+img_05,img_05.jpg,Aeropuerto Techo 1930 n4,1930,Bogotá,Image;StillImage,image/jpeg,4.627659,-74.147791
 img_06,img_06.jpg,Avenida Chile - IPN - Iglesia Porciúncula 1930,1930,Bogotá,Image;StillImage,image/jpeg
 img_07,img_07.jpg,Avenida Jiménez,,Bogotá,Image;StillImage,image/jpeg
 img_08,img_08.jpg,Barrio Santa Inés 1940,1940,Bogotá,Image;StillImage,image/jpeg

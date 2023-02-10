@@ -4,3 +4,5 @@ date,Fecha de creación,
 location,Ubicación
 type,Tipo,
 format,Formato,
+latitude,Latitud,
+longitude,Longitud,

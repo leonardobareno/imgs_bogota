@@ -29,7 +29,7 @@
         var longitudeHash = hashfilter.split(',')[1]
         var map = L.map('map').setView([latitudeHash,longitudeHash],16);
     } else {
-        var map = L.map('map').setView([{{ site.data.theme.latitude | default: 46.727485 }},{{ site.data.theme.longitude | default: -117.014185 }}],{{ site.data.theme.zoom-level | default: 5 }});
+        var map = L.map('map').setView([{{ site.data.theme.latitude | default: 4.598661 }},{{ site.data.theme.longitude | default: -74.076857 }}],{{ site.data.theme.zoom-level | default: 18 }});
     }
 
     /* add map layer options */

@@ -27,7 +27,7 @@
         var hashfilter = decodeURIComponent(location.hash.substr(1));
         var latitudeHash = hashfilter.split(',')[0]
         var longitudeHash = hashfilter.split(',')[1]
-        var map = L.map('map').setView([latitudeHash,longitudeHash],16);
+        var map = L.map('map').setView([latitudeHash,longitudeHash],18);
     } else {
         var map = L.map('map').setView([{{ site.data.theme.latitude | default: 4.598661 }},{{ site.data.theme.longitude | default: -74.076857 }}],{{ site.data.theme.zoom-level | default: 18 }});
     }
@@ -38,7 +38,7 @@
     });
     var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
         attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
-        maxZoom: 16
+        maxZoom: 18
     });
     var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
         attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
